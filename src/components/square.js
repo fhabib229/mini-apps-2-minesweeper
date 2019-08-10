@@ -6,7 +6,7 @@ class Square extends React.Component {
       return this.props.value.isFlagged ? "🚩" : null;
     }
     if (this.props.value.isMine) {
-      return "💥";
+      return "💣";
     }
     if (this.props.value.neighbour === 0) {
       return null;
