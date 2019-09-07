@@ -96,7 +96,7 @@ class Board extends React.Component {
   }
 
   getNeighbours(data, height, width) {
-    let updatedData = data, index = 0;
+    let updatedData = data,
 
     for (let i  = 0; i < height; i++) {
       for (let j = 0; j < width; j++) {
